@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/lblOyunAciklama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/lbl_oyun_aciklama"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25sp"
+        android:textColor="@color/color_ana_ekran_1" />
+
+    <LinearLayout
+        android:id="@+id/layoutSayilar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+        <LinearLayout
+	        android:id="@+id/layoutSira1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtSayi1_1"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi1_2"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi1_3"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi1_4"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+
+	    </LinearLayout>
+        <LinearLayout
+	        android:id="@+id/layoutSira2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtSayi2_1"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi2_2"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi2_3"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi2_4"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+	    </LinearLayout>
+        <LinearLayout
+	        android:id="@+id/layoutSira3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtSayi3_1"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi3_2"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi3_3"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi3_4"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+	    </LinearLayout>
+        <LinearLayout
+	        android:id="@+id/layoutSira4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtSayi4_1"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi4_2"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi4_3"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+            <TextView
+                android:id="@+id/txtSayi4_4"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_soru_isareti"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="25sp"
+                android:textColor="@color/color_ana_ekran_2" />
+	    </LinearLayout>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btnDevam"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/btn_devam"
+        android:textSize="25sp"
+        android:textColor="@color/color_btn_devam"
+        android:background="@color/color_ana_ekran_2" />
+
+
+</RelativeLayout>

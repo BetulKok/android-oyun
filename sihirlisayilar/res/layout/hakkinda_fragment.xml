@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/lblHakkinda1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/lbl_ana_ekran_1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="56sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/color_ana_ekran_1" />
+
+    <TextView
+        android:id="@+id/lblHakkinda2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblHakkinda1"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/lbl_hakkinda_2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="24sp"
+        android:textColor="@color/color_ana_ekran_2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/linkDuzce"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/duzce_link"
+        android:linksClickable="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@color/color_ana_ekran_2"
+        android:textSize="32sp"
+        android:autoLink="web" />
+
+</RelativeLayout>

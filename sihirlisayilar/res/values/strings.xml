@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Sihirli Sayılar</string>
+    <string name="btn_yeni_oyun">BAŞLAT</string>
+    <string name="btn_hakkinda">HAKKINDA</string>
+    <string name="btn_devam">Devam Et</string>
+    <string name="lbl_ana_ekran_1">Sihirli Sayılar</string>
+    <string name="lbl_ana_ekran_2">Bu oyun;\n<u>Düzce Üniveritesi</u>\nBilgisayar Mühendisliği Mobil Programlama Dersi kapsamında hazırlanmıştır.</string>
+	<string name="lbl_hakkinda_2">
+        <!-- Bu kısım oyun hakkında bilgi içerir -->
+    </string>
+    <string name="lbl_oyun_aciklama">Aklınızdan, \n1 ile 31 arasında \nbir sayı tutunuz.</string>
+    <string name="lbl_oyun_akis">Tuttuğunuz sayı tabloda var mı?</string>
+	<string name="lbl_soru_isareti">\?</string>
+	<string name="btn_var">Evet, var.</string>
+	<string name="btn_yok">Hayır, yok.</string>
+	<string name="lbl_sonuc">Tutmuş olduğunuz sayı: </string>
+	<string name="duzce_link_url">http://www.duzce.edu.tr/</string>
+	<string name="duzce_link"><u>Düzce Üniversitesi</u></string>
+</resources>
